@@ -27,8 +27,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
-
-
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
     <title>BuTam Pengadilan Agama</title>
 </head>
 
