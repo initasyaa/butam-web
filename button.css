@@ -1,0 +1,20 @@
+.table-data .order .btn-edit{
+    color: #4CAF50;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    display: inline-block;
+}
+.table-data .order .btn-delete {
+    color: #F44336; /* Warna teks putih untuk ikon */
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.table-data .order .btn-edit:hover,
+.table-data .order .btn-delete:hover {
+    background-color: #ffff; /* Warna merah lebih gelap saat hover */
+}
+

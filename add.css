@@ -1,0 +1,57 @@
+input {
+    border: none;
+    outline: none;
+    background: none;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    display: block;
+    width: 500px;
+    margin-top: 18px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    text-align: left;
+}
+
+/* Responsive styles for mobile landscape mode */
+@media (max-width: 768px) and (orientation: landscape) {
+    input {
+        width: 100%; /* Full width for landscape mode on mobile devices */
+        margin-top: 10px; /* Adjust margin if needed */
+    }
+}
+
+/* Responsive styles for mobile portrait mode */
+@media (max-width: 768px) and (orientation: portrait) {
+    input {
+        width: 100%; /* Full width for portrait mode */
+        margin-top: 10px; /* Adjust margin if needed */
+    }
+}
+.btn-submit {
+    height: 36px;
+    padding: 0 16px;
+    border-radius: 36px;
+    background: var(--blue);
+    color: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    font-weight: 500;
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 16px; /* Adjust font size if needed */
+    text-align: center; /* Center text alignment */
+}
+
+.btn-submit:focus {
+    outline: none; /* Remove default focus outline */
+}
+
+.btn-submit i {
+    font-size: 18px; /* Adjust icon size if needed */
+}
+
+.btn-submit .text {
+    margin-left: 8px; /* Adjust spacing between icon and text */
+}
